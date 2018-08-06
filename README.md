@@ -6,7 +6,7 @@
 ## 预览
 
 * consul 集群的三个节点部署方式使用 [StatefulSet](http://kubernetes.io/docs/concepts/abstractions/controllers/statefulsets)
-* consul集群成员之间的信息交换安全模式使用 [TLS and encryption keys](https://www.consul.io/docs/agent/encryption.html)
+* consul集群成员之间使用TLS进行安全通信 [TLS and encryption keys](https://www.consul.io/docs/agent/encryption.html)
 
 ## 预备知识
 
