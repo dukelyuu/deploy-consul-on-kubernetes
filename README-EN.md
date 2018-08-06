@@ -1,14 +1,13 @@
-# 在kubernetes上运行consul 集群
+# Running Consul on Kubernetes
 
+This tutorial will walk you through deploying a three (3) node [Consul](https://www.consul.io) cluster on Kubernetes.
 
-本教程将帮助你在kubernetes上部署一个拥有3个节点的consul集群 备注：consul教程见[Consul](https://www.consul.io)
+## Overview
 
-## 预览
+* Three (3) node Consul cluster using a [StatefulSet](http://kubernetes.io/docs/concepts/abstractions/controllers/statefulsets)
+* Secure communication between Consul members using [TLS and encryption keys](https://www.consul.io/docs/agent/encryption.html)
 
-* consul 集群的三个节点部署方式使用 [StatefulSet](http://kubernetes.io/docs/concepts/abstractions/controllers/statefulsets)
-* consul集群成员之间的信息交换安全模式使用 [TLS and encryption keys](https://www.consul.io/docs/agent/encryption.html)
-
-## 预备知识
+## Prerequisites
 
 This tutorial leverages features available in Kubernetes 1.6.0 and later.
 
