@@ -1,4 +1,4 @@
-# 在kubernetes上运行consul 集群
+# 在kubernetes上部署consul 集群
 
 
 本教程将帮助你在kubernetes上部署一个拥有3个节点的consul集群 备注：consul教程见[Consul](https://www.consul.io)
